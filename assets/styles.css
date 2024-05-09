@@ -31,7 +31,7 @@ nav {
 
 
 .logo h1, .nav-links a, .lang-btn {
-    color: rgb(0, 8, 157); /* Cinza escuro para suavizar o contraste */
+    color: rgb(0, 8, 157); 
 }
 
 .lang-btn:hover {
@@ -48,6 +48,7 @@ nav {
     border: none;
     color: rgb(0, 8, 157); /* Branco para os botões de idioma */
     cursor: pointer;
+    z-index: 50;
     margin-left: 10px;
     padding: 0px 20px;
     margin-top: 45px;
@@ -58,16 +59,16 @@ nav {
 }
 
 .lang-btn:hover {
-    background-color: #f8c4f1; /* Cor mais clara ao passar o mouse */
+    background-color: #f8c4f1; 
 }
 html {
     scroll-behavior: smooth;
 }
 .hero {
-    background-image: url(img/rossi.jpeg); /* Substitua pelo caminho correto da imagem */
+    background-image: url(img/rossi.jpeg); 
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Faz a seção ocupar toda a altura da tela */
+    height: 100vh; 
     color: #fff;
     text-align: center;
     display: flex;
@@ -78,7 +79,7 @@ html {
 .hero-content h1 {
     font-size: 3.2em; 
     margin-bottom: 10px;
-    margin-top: 1000px;
+    margin-top: 800px;
     color: rgb(0, 8, 157);
 }
 
